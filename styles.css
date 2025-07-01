@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: #eaf6ea;
+  color: #2c3e21;
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 60px;
+}
+
+header {
+  background: #81c784;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0.75rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-family: 'Pacifico', cursive;
+  font-size: 1.8rem;
+  color: #2c3e21;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.3rem;
+}
+
+.nav-links li a {
+  color: #2c3e21;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-links li a:hover,
+.nav-links li a.active {
+  background-color: #4caf50;
+  color: white;
+}
+
+.hero {
+  text-align: center;
+  padding: 6rem 1rem 4rem;
+}
+
+.hero h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #33691e;
+  text-shadow: 1px 1px 2px #a5d6a7;
+}
+
+.hero p {
+  font-size: 1.3rem;
+  color: #558b2f;
+}
+
+.garden-intro {
+  max-width: 700px;
+  margin: 0 auto 3rem;
+  padding: 0 1rem;
+  font-style: italic;
+  font-weight: 600;
+  text-align: center;
+  color: #33691e;
+}
+
+.content-section {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background: #81c784;
+  color: #2c3e21;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.vine-top-left {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  opacity: 0.3;
+}
+
+.vine-bottom-right {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  opacity: 0.3;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .hero h1 {
+    font-size: 2.3rem;
+  }
+}
