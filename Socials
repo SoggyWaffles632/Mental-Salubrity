@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Socials - Mental Salubrity</title>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Open+Sans&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Mental Salubrity</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="questions.html">Mental Health Questions</a></li>
+        <li><a href="info.html">Mental Health Info</a></li>
+        <li><a href="get-involved.html">Get Involved</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="socials.html">Socials</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="content-section">
+      <h1>Socials</h1>
+      <p>This page is under construction. More information will be added soon.</p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Mental Salubrity | All rights reserved.
+  </footer>
+
+  <svg class="vine-top-left" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+    <path fill="none" stroke="#4caf50" stroke-width="3" d="M10 90 C 30 50, 70 50, 90 10" />
+  </svg>
+
+  <svg class="vine-bottom-right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+    <path fill="none" stroke="#4caf50" stroke-width="3" d="M90 10 C 70 50, 30 50, 10 90" />
+  </svg>
+</body>
+</html>
