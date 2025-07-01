@@ -1,192 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Mental Salubrity</title>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
-  <style>
-    body {
-      font-family: 'Open Sans', sans-serif;
-      margin: 0;
-      background-color: #f9f9f9;
-      color: #333;
-    }
-
-    header {
-      background-color: #A7C7E7;
-      padding: 1rem 2rem;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    header h1 {
-      margin: 0;
-      font-size: 1.5rem;
-      color: #fff;
-    }
-
-    nav ul {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      gap: 1rem;
-    }
-
-    nav a {
-      color: #fff;
-      text-decoration: none;
-      font-weight: 600;
-    }
-
-    nav a:hover {
-      text-decoration: underline;
-    }
-
-    main {
-      max-width: 900px;
-      margin: 2rem auto;
-      padding: 0 1rem;
-    }
-
-    .hero {
-      text-align: center;
-      margin-bottom: 2rem;
-    }
-
-    .hero h2 {
-      font-size: 2rem;
-      margin-bottom: 0.5rem;
-      color: #4a7ebB;
-    }
-
-    .hero p {
-      font-size: 1.2rem;
-      color: #666;
-    }
-
-    .toc {
-      background-color: #C1E1C1;
-      padding: 1rem;
-      border-radius: 6px;
-      margin-bottom: 2rem;
-    }
-
-    .toc h3 {
-      margin-top: 0;
-    }
-
-    .toc ul {
-      list-style: none;
-      padding-left: 0;
-    }
-
-    .toc li {
-      margin-bottom: 0.5rem;
-    }
-
-    .toc a {
-      color: #2d5a2d;
-      text-decoration: none;
-    }
-
-    .toc a:hover {
-      text-decoration: underline;
-    }
-
-    section {
-      margin-bottom: 3rem;
-    }
-
-    footer {
-      background-color: #A7C7E7;
-      color: white;
-      text-align: center;
-      padding: 1rem;
-      font-size: 0.9rem;
-    }
-
-  </style>
+  <title>Mental Salubrity - Home</title>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Open+Sans&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
-
 <body>
   <header>
-    <h1>Mental Salubrity</h1>
-    <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About Us</a></li>
-        <li><a href="#questions">Mental Health Questions</a></li>
-        <li><a href="#info">Mental Health Info</a></li>
-        <li><a href="#get-involved">Get Involved</a></li>
-        <li><a href="#resources">Resources</a></li>
-        <li><a href="#socials">Socials</a></li>
-        <li><a href="#donate">Donate</a></li>
+    <nav class="navbar">
+      <div class="logo">Mental Salubrity</div>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="questions.html">Mental Health Questions</a></li>
+        <li><a href="info.html">Mental Health Info</a></li>
+        <li><a href="get-involved.html">Get Involved</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="socials.html">Socials</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <div class="hero" id="home">
-      <h2>Welcome to Mental Salubrity</h2>
+    <section class="hero">
+      <h1>Welcome to Mental Salubrity</h1>
       <p>Your trusted resource for mental health awareness and support.</p>
-    </div>
-
-    <div class="toc">
-      <h3>Jump to Section:</h3>
-      <ul>
-        <li><a href="#about">About Us</a></li>
-        <li><a href="#questions">Mental Health Questions</a></li>
-        <li><a href="#info">Mental Health Info</a></li>
-        <li><a href="#get-involved">Get Involved</a></li>
-        <li><a href="#resources">Resources</a></li>
-        <li><a href="#socials">Socials</a></li>
-        <li><a href="#donate">Donate</a></li>
-      </ul>
-    </div>
-
-    <section id="about">
-      <h2>About Us</h2>
-      <p>Mental Salubrity is a nonprofit organization dedicated to promoting mental health awareness, education, and support.</p>
     </section>
 
-    <section id="questions">
-      <h2>Mental Health Questions</h2>
-      <p>Have questions about mental health? We are here to help answer them and guide you to the right resources.</p>
-    </section>
-
-    <section id="info">
-      <h2>Mental Health Info</h2>
-      <p>Learn about various mental health issues, symptoms, treatments, and more.</p>
-    </section>
-
-    <section id="get-involved">
-      <h2>Get Involved</h2>
-      <p>Find out how you can volunteer, donate, or otherwise support Mental Salubrity.</p>
-    </section>
-
-    <section id="resources">
-      <h2>Resources</h2>
-      <p>Access a curated list of helpful mental health websites, hotlines, and tools.</p>
-    </section>
-
-    <section id="socials">
-      <h2>Socials</h2>
-      <p>Connect with us on social media to stay updated and engaged.</p>
-    </section>
-
-    <section id="donate">
-      <h2>Donate</h2>
-      <p>Your contributions help us provide vital mental health services and outreach.</p>
+    <section class="garden-intro">
+      <h2>Grow With Us</h2>
+      <p>We believe mental health thrives like a garden — with care, nurture, and community.</p>
     </section>
   </main>
 
   <footer>
     &copy; 2025 Mental Salubrity | All rights reserved.
   </footer>
-</body>
 
+  <svg class="vine-top-left" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+    <path fill="none" stroke="#4caf50" stroke-width="3" d="M10 90 C 30 50, 70 50, 90 10" />
+  </svg>
+
+  <svg class="vine-bottom-right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+    <path fill="none" stroke="#4caf50" stroke-width="3" d="M90 10 C 70 50, 30 50, 10 90" />
+  </svg>
+</body>
 </html>
